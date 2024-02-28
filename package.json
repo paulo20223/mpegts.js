@@ -17,6 +17,7 @@
     "dvb"
   ],
   "scripts": {
+    "prepare": "npm run build",
     "build": "webpack --mode=production --progress",
     "build:debug": "webpack --mode=development --progress",
     "watch": "webpack --mode=development --progress --watch",
